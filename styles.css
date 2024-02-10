@@ -18,6 +18,13 @@ body{
     border-radius: 5px; /* roundness of the thumb */
 }
 
+.website_heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    font-size: 30;
+}
+
 .container{
     width: 100%;
     height: 100vh;
