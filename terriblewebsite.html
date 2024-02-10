@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bad Website</title>
+    </head>
+    <body>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <script>
+            function getValue(){
+                var x = document.getElementById("myRange").value;
+                document.getElementById("myRange").innerHTML = x;
+            }
+        </script>
+        <h1 onload="getValue()">
+            <span id="myRange"></span>
+        </h1>
+    </body>
+</html>
