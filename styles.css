@@ -1,0 +1,36 @@
+body{
+    background-image: url("background.png");
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.spin-container{
+
+}
+
+.spin-container:nth-child(1){
+    animation: spin 2s linear infinite;
+}
+
+.spinner {
+    width: 200px;
+    height: 300px;
+    animation: spin 2s linear infinite; /* Adjust the duration as needed */
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
